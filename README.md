@@ -9,17 +9,22 @@ We would like you to provide two functions for a UI developer to call.
 
 1. A board initialisation function, this will receive two arguments:
 
-a. Size: Is the number of cells on each side of the board (squared). For example
-if the number 5 were passed this would mean build a board which is 5x5 in
-size.
-b. Bombs: An array of values indicating where the bombs should be placed in
-on the board. For example this could be an array of pairs with x, y
-co­ordinates, such as (in json):
-“[[1,1], [3,4], [9,6]]”
-This would mean places bombs in cells
-1,1
-3,4
-9,6
+   a. Size: Is the number of cells on each side of the board (squared). For example
+    if the number 5 were passed this would mean build a board which is 5x5 in
+     size.
+
+   b. Bombs: An array of values indicating where the bombs should be placed in
+       on the board. For example this could be an array of pairs with x, y
+        co­ordinates, such as (in json):
+
+          “[[1,1], [3,4], [9,6]]”
+
+         This would mean places bombs in cells
+                  1,1
+
+                  3,4
+
+                  9,6
 
 
 2. A function to be called when the user clicks on a cell, this should return a
